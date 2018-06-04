@@ -10,7 +10,16 @@ namespace CSleaning1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            //変数の宣言
+            int money;
+            string name;
+
+            //変数に値を代入する
+            money = 5000;
+            name = "きたむら";
+
+            Console.WriteLine(money);  //所持金を表示
+            Console.WriteLine(name);  //名前を表示
         }
     }
 }
