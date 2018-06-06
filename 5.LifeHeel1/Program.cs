@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Free
+namespace _5.LifeHeel1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for ( int i = 3; i > 0; i-- )
-            {
-                Console.WriteLine(i);
-            }
-            Console.WriteLine("スタート");
+            int life = 1;
+
+            //ライフを「1」だけ増やす
+            life++;
+            Console.WriteLine(life);
         }
     }
 }

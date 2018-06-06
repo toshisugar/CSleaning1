@@ -4,17 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Free
+namespace _12.Missile
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for ( int i = 3; i > 0; i-- )
+            for (int i = 15; i > 5; i--)
             {
-                Console.WriteLine(i);
+                Console.WriteLine("missile at " + i);
             }
-            Console.WriteLine("スタート");
+            Console.WriteLine("hit");
+        
+
         }
     }
 }

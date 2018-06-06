@@ -4,17 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Free
+namespace _14._10000WARU2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for ( int i = 3; i > 0; i-- )
+            int num = 10000;
+            int count = 0;
+
+            while (num >= 100)
             {
-                Console.WriteLine(i);
+                num /= 2;
+                count ++;
             }
-            Console.WriteLine("スタート");
+            Console.WriteLine(count);
         }
     }
 }
+
