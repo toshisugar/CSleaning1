@@ -23,9 +23,9 @@ namespace _17.Weight
             weights[6] = 42.7f;
 
             //配列の値をすべて表示する
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < 7; i++)  //要素の数を変えたら、この繰り返しの回数もきちんと書き換える。
             {
-                Console.WriteLine(weights[i]);
+                Console.WriteLine(weights[i]);  //また、02.Weight
             }
         }
     }
