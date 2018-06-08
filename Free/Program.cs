@@ -38,15 +38,55 @@ namespace Free
             //}
             //}
 
+            //var g = new int[9, 9];
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    for (int z = 1; z < 9; z++)
+            //    {
+            //        Console.Write(ToStringしちゃうよ(i * z) + ",");
+            //    }
+            //    Console.WriteLine(ToStringしちゃうよ(i * 9));
+
+
+
+            //}
+
+
+
+
             var g = new int[9, 9];
             for (int i = 1; i < 10; i++)
             {
-                for (int z = 1; z < 9; z++)
+                for (int z = 1; z < 10; z++)
                 {
-                    Console.Write(ToStringしちゃうよ(i * z) + ",");
+                    g[i - 1, z - 1] = i * z;
                 }
-                Console.WriteLine(ToStringしちゃうよ(i * 9));
             }
+
+            Console.WriteLine("");
+
+
+
+            foreach (int a in g)
+            {
+                System.Console.Write("{0}", a);
+            }
+
+
+            //int[,] numbers2D = new int[3, 2] { { 9, 99 }, { 3, 33 }, { 5, 55 } };
+
+            //foreach (int i in numbers2D)
+            //{
+            //    System.Console.Write("{0} ", i  );
+            //}
+
+
+
+
+
+
+
+
 
             //var nums = Enumerable.Range(1, 9);
             //foreach (var y in nums)
