@@ -54,23 +54,23 @@ namespace Free
 
 
 
-            var g = new int[9, 9];
-            for (int i = 1; i < 10; i++)
-            {
-                for (int z = 1; z < 10; z++)
-                {
-                    g[i - 1, z - 1] = i * z;
-                }
-            }
+            //var g = new int[9, 9];
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    for (int z = 1; z < 10; z++)
+            //    {
+            //        g[i - 1, z - 1] = i * z;
+            //    }
+            //}
 
-            Console.WriteLine("");
+            //Console.WriteLine("");
 
 
 
-            foreach (int a in g)
-            {
-                System.Console.Write("{0}", a);
-            }
+            //foreach (int a in g)
+            //{
+            //    System.Console.Write("{0}", a);
+
 
 
             //int[,] numbers2D = new int[3, 2] { { 9, 99 }, { 3, 33 }, { 5, 55 } };
@@ -102,12 +102,29 @@ namespace Free
 
             //    j++;
             //}
-        }
 
-        private static string ToStringしちゃうよ(int value)
+
+            int a = 3;
+            Test(ref a);
+            Console.WriteLine(a);
+
+
+
+
+        }
+        static void Test(ref int val)
         {
-            return value.ToString().PadLeft(3);
+            val = 10;
         }
     }
+
+
+    
+
+//    private static string ToStringしちゃうよ(int value)
+//    {
+//        return value.ToString().PadLeft(3);
+//    }
 }
+
 

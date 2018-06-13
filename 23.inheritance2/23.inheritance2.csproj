@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{659DBD5E-C66B-416B-94A9-C145CC639AB4}</ProjectGuid>
+    <ProjectGuid>{8AF64DA4-388D-4C2B-BB31-560723B92091}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Free</RootNamespace>
-    <AssemblyName>Free</AssemblyName>
+    <RootNamespace>_23.inheritance2</RootNamespace>
+    <AssemblyName>23.inheritance2</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Kart.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkyKart.cs" />
+    <Compile Include="TurboKart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

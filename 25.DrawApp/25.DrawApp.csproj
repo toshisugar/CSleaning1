@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{659DBD5E-C66B-416B-94A9-C145CC639AB4}</ProjectGuid>
+    <ProjectGuid>{CE1A4E1D-216F-4EE8-88A4-BCBC6DB75528}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Free</RootNamespace>
-    <AssemblyName>Free</AssemblyName>
+    <RootNamespace>_25.DrawApp</RootNamespace>
+    <AssemblyName>25.DrawApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Figure.cs" />
+    <Compile Include="Line.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

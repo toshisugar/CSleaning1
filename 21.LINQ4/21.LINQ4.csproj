@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{659DBD5E-C66B-416B-94A9-C145CC639AB4}</ProjectGuid>
+    <ProjectGuid>{559EC3DE-AFA7-4190-8D0A-4A6B65A0C9C0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Free</RootNamespace>
-    <AssemblyName>Free</AssemblyName>
+    <RootNamespace>_21.LINQ4</RootNamespace>
+    <AssemblyName>21.LINQ4</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
