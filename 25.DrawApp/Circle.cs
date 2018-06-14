@@ -10,10 +10,10 @@ namespace _25.DrawApp
     {
         string fillColer;//塗りつぶし色
         
-        public Circle(int sx, int sy, int ex, int ey,string color)//Circleの引数を指定
+        public Circle(int sx, int sy, int ex, int ey,string color)  //Circleの引数を指定
         {
-            this.startPosX = sx;//受け取った値を代入。thisは薄くなっているとおり、別に書かなくてもよい
-            this.startPosY = sy;
+            this.startPosX = sx;                                 //受け取った値を代入。thisは薄くなっているとおり、別に書かなくてもよい
+            this.startPosY = sy;                                 //変数はすでにFigureで定義している
             this.endPosX = ex;
             this.endPosY = ey;
             this.fillColer = color;
@@ -24,7 +24,7 @@ namespace _25.DrawApp
             //表示に必要な円の中心座標と半径を計算する
             int centerX = (this.startPosX + this.endPosX) / 2;
             int centerY = (this.startPosY + endPosY) / 2;
-            int radius = Math.Abs(this.startPosX - this.endPosX) / 2;                   //MathクラスのAbsメソッド。絶対値を出す
+            int radius = Math.Abs(this.startPosX - this.endPosX) / 2;                   //MathクラスのAbsメソッド。絶対値を出す。radiusは半径の意味
             Console.WriteLine($"({centerX},{centerY},)を中心にして、半径{radius}、{this.fillColer}色の円を描く");
         }
     }

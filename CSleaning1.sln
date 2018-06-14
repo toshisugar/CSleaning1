@@ -95,6 +95,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24.Polymorphism1", "24.Poly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25.DrawApp", "25.DrawApp\25.DrawApp.csproj", "{CE1A4E1D-216F-4EE8-88A4-BCBC6DB75528}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26.WindowsAPP1", "26.WindowsAPP1\26.WindowsAPP1.csproj", "{C55DDF01-F1CD-44A2-BB4A-67E4DB576B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32.DrawAPP1", "32.DrawAPP\32.DrawAPP1.csproj", "{B1FCB0B6-7F11-4160-907A-D43B2E446867}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +289,14 @@ Global
 		{CE1A4E1D-216F-4EE8-88A4-BCBC6DB75528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE1A4E1D-216F-4EE8-88A4-BCBC6DB75528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE1A4E1D-216F-4EE8-88A4-BCBC6DB75528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55DDF01-F1CD-44A2-BB4A-67E4DB576B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55DDF01-F1CD-44A2-BB4A-67E4DB576B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55DDF01-F1CD-44A2-BB4A-67E4DB576B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55DDF01-F1CD-44A2-BB4A-67E4DB576B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FCB0B6-7F11-4160-907A-D43B2E446867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FCB0B6-7F11-4160-907A-D43B2E446867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FCB0B6-7F11-4160-907A-D43B2E446867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FCB0B6-7F11-4160-907A-D43B2E446867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
