@@ -27,8 +27,8 @@ namespace _21.Linq3
         {
             var strList = source.Select(t => t.ToString().PadLeft(3));  //引数を、stringにして射影、strListに代入
             Console.WriteLine(string.Join(",", strList));  //strListのそれぞれの要素の間に「,」を付して結合(join)する
-            //なぜこれが必要なのか。リストをそのままCWLしても、「これ、リストですｗｗ」としかでない。リストを文字列として出力はされない。
-            //一方、数字は便宜上オーバーロードしてくれるため、そのまま出力してくれる。
+            //なぜこれが必要なのか。WriteLineは、渡されたものをToStringして表示してくれる。リストをToStringしても、「これ、リストですｗｗ」としかならない。リストの要素を文字列として出力はされない。
+            //一方、数字は、ToStringでそのまま文字列にしてくれるので、そのまま渡せる。
         }
         //}
     }
