@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Free
 {
-    class Class1
+    class GenericsSample
     {
+        public List<string> GetStringList()
+        {
+            var list = new List<string>();
+            list.Add("文字列");
+
+            //string item = list[10];
+            return list;
+        }
     }
 }

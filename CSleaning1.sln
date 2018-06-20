@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26.WindowsAPP1", "26.Window
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32.DrawAPP1", "32.DrawAPP\32.DrawAPP1.csproj", "{B1FCB0B6-7F11-4160-907A-D43B2E446867}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "ConsoleApp1\Generics.csproj", "{B03318E9-F02D-47C6-82FD-8C321F180873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{B1FCB0B6-7F11-4160-907A-D43B2E446867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1FCB0B6-7F11-4160-907A-D43B2E446867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1FCB0B6-7F11-4160-907A-D43B2E446867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03318E9-F02D-47C6-82FD-8C321F180873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03318E9-F02D-47C6-82FD-8C321F180873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03318E9-F02D-47C6-82FD-8C321F180873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03318E9-F02D-47C6-82FD-8C321F180873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

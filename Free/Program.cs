@@ -10,6 +10,9 @@ namespace Free
     {
         static void Main(string[] args)
         {
+            var a = new GenericsSample();
+            Console.WriteLine(a);
+
 
             //while (true)
             //{
@@ -104,27 +107,27 @@ namespace Free
             //}
 
 
-            int a = 3;
-            Test(ref a);
-            Console.WriteLine(a);
+            //        int a = 3;
+            //        Test(ref a);
+            //        Console.WriteLine(a);
 
 
 
 
-        }
-        static void Test(ref int val)
-        {
-            val = 10;
+            //    }
+            //    static void Test(ref int val)
+            //    {
+            //        val = 10;
         }
     }
 
 
-    
 
-//    private static string ToStringしちゃうよ(int value)
-//    {
-//        return value.ToString().PadLeft(3);
-//    }
+
+    //    private static string ToStringしちゃうよ(int value)
+    //    {
+    //        return value.ToString().PadLeft(3);
+    //    }
 }
 
 
